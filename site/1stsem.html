@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>1st Semester - Downloads</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="nav.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="1stsem.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <div class="title">
+        <div class="logo">CG</div>
+        <div>
+          <h1>1st Semester - Question Papers</h1>
+          <p class="small">Browse and download previous year papers for 1st sem.</p>
+        </div>
+      </div>
+      <nav class="navbar">
+        <a class="nav-btn" href="index.html"><i class="fa-solid fa-house icon"></i>Home</a>
+        <a class="nav-btn" href="cgpa.html"><i class="fa-solid fa-calculator icon"></i>Calculator</a>
+        <a class="nav-btn" href="download.html"><i class="fa-solid fa-download icon"></i>Downloads</a>
+      </nav>
+    </header>
+
+    <main class="downloads-wrap">
+      <div class="hero">
+        <div>
+          <h1>1st SEM</h1>
+          <p>Here you can find the previous year question papers for 1st SEM.</p>
+        </div>
+        <div class="search-row">
+          <input id="search" type="search" placeholder="Search papers (e.g. Civil, Chemistry)" />
+          <a href="download.html" class="nav-btn">All Downloads</a>
+        </div>
+      </div>
+
+      <div class="filters" >
+        <label class="filter-label" >Year</label>
+        <select class="filter-select" id="filterYear" style="padding:8px;border-radius:8px;background:rgba(255,255,255,0.03);color:#000000;border:1px solid rgba(255,255,255,0.04)">
+          <option value="all">All</option>
+          <option value="2025">2025</option>
+          <option value="2024">2024</option>
+          <option value="2023">2023</option>
+        </select>
+
+        <div class="filter-subjects">
+          <label class="subject-label">Subjects</label>
+          <label style="font-size:0.9rem"><input type="checkbox" name="sub" value="civil" checked> Civil</label>
+          <label style="font-size:0.9rem"><input type="checkbox" name="sub" value="electrical" checked> Electrical</label>
+          <label style="font-size:0.9rem"><input type="checkbox" name="sub" value="math" checked> Math</label>
+        </div>
+      </div>
+
+      <section class="cards" id="cards">
+        <article class="card" data-title="basic civil engineering 2025" data-year="2025" data-subjects="civil" >
+          <h4 onclick="location.href='download/btech-1-sem-basic-civil-engineering-2025.pdf'">BTech 1 - Basic Civil Engineering (2025)</h4>
+          <div class="meta">PDF — 420 KB</div>
+          <p>Previous year question paper for Basic Civil Engineering.</p>
+          <a class="btn ghost download" href="download/btech-1-sem-basic-civil-engineering-2025.pdf" download>Download PDF</a>
+        </article>
+
+        <article class="card" data-title="basic electrical engineering 2024" data-year="2024" data-subjects="electrical">
+          <h4>BTech 1 - Basic Electrical Engineering (2024)</h4>
+          <div class="meta">PDF — 512 KB</div>
+          <p>Previous year question paper for Basic Electrical Engineering.</p>
+          <a class="btn ghost download" href="#">Download PDF</a>
+        </article>
+
+        <article class="card" data-title="engineering mathematics" data-year="2023" data-subjects="math">
+          <h4>Engineering Mathematics - Sample Paper</h4>
+          <div class="meta">PDF — 380 KB</div>
+          <p>Sample paper and model answers for Engineering Mathematics.</p>
+          <a class="btn ghost download" href="#">Download PDF</a>
+        </article>
+        <article class="card" data-title="engineering mathematics" data-year="2023" data-subjects="math">
+          <h4>Engineering Mathematics - Sample Paper</h4>
+          <div class="meta">PDF — 380 KB</div>
+          <p>Sample paper and model answers for Engineering Mathematics.</p>
+          <a class="btn ghost download" href="#">Download PDF</a>
+        </article>
+
+        <article class="card" data-title="engineering mathematics" data-year="2023" data-subjects="math">
+          <h4>Engineering Mathematics - Sample Paper</h4>
+          <div class="meta">PDF — 380 KB</div>
+          <p>Sample paper and model answers for Engineering Mathematics.</p>
+          <a class="btn ghost download" href="#">Download PDF</a>
+        </article>
+
+        <article class="card" data-title="engineering mathematics" data-year="2023" data-subjects="math">
+          <h4>Engineering Mathematics - Sample Paper</h4>
+          <div class="meta">PDF — 380 KB</div>
+          <p>Sample paper and model answers for Engineering Mathematics.</p>
+          <a class="btn ghost download" href="#">Download PDF</a>
+        </article> 
+
+        <article class="card" data-title="engineering mathematics" data-year="2023" data-subjects="math">
+          <h4>Engineering Mathematics - Sample Paper</h4>
+          <div class="meta">PDF — 380 KB</div>
+          <p>Sample paper and model answers for Engineering Mathematics.</p>
+          <a class="btn ghost download" href="#">Download PDF</a>
+        </article>
+
+        <article class="card" data-title="engineering mathematics" data-year="2023" data-subjects="math">
+          <h4>Engineering Mathematics - Sample Paper</h4>
+          <div class="meta">PDF — 380 KB</div>
+          <p>Sample paper and model answers for Engineering Mathematics.</p>
+          <a class="btn ghost download" href="#">Download PDF</a>
+        </article>
+
+        <article class="card" data-title="engineering mathematics" data-year="2023" data-subjects="math">
+          <h4>Engineering Mathematics - Sample Paper</h4>
+          <div class="meta">PDF — 380 KB</div>
+          <p>Sample paper and model answers for Engineering Mathematics.</p>
+          <a class="btn ghost download" href="#">Download PDF</a>
+        </article>
+      </section>
+    </main>
+  </div>
+
+  <script src="1stsem.js"></script>
+</body>
+</html>

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CGPA Calculator</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="nav.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="cgpas.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <div class="title">
+        <div class="logo"><i class="fa-solid fa-graduation-cap"></i></div>
+        <div>
+          <h1>Student Tools</h1>
+          <p class="small">CGPA Calculator • Semester Tools</p>
+        </div>
+      </div>
+      <nav class="navbar">
+        <a class="nav-btn" href="index.html"><i class="fa-solid fa-house icon"></i>Home</a>
+        <a class="nav-btn active" href="cgpa.html"><i class="fa-solid fa-calculator icon"></i>Calculator</a>
+        <a class="nav-btn" href="download.html"><i class="fa-solid fa-download icon"></i>Downloads</a>
+      </nav>
+    </header>
+
+    <main class="page" style="padding:28px 20px">
+      <section class="hero" style="align-items:flex-start;gap:24px;margin-bottom:22px">
+        <div style="max-width:720px">
+          <h1 style="color:#fff;margin:0 0 8px">CGPA Calculator</h1>
+          <p style="color:rgba(255,255,255,0.9);margin:0 0 16px">Select grades for each subject and press Calculate to see your semester CGPA.</p>
+        </div>
+      </section>
+
+      <div class="main" style="margin-top:8px">
+        <article class="card" style="padding:18px;border-radius:12px">
+          <form id="cgp" class="cgpaform">
+            <div class="form-grid">
+              <label for="EM">Engineering Mathematics</label>
+              <select id="EM" class="options">
+                <option value="A++">A++</option>
+                <option value="A+">A+</option>
+                <option value="A">A</option>
+                <option value="B+">B+</option>
+                <option value="B">B</option>
+                <option value="C+">C+</option>
+                <option value="C">C</option>
+                <option value="D+">D+</option>
+                <option value="D">D</option>
+                <option value="E+">E+</option>
+                <option value="E">E</option>
+                <option value="F">F</option>
+              </select>
+
+              <label for="BEE">Basic Civil / Basic Electrical</label>
+              <select id="BEE" class="options">
+                <option value="A++">A++</option>
+                <option value="A+">A+</option>
+                <option value="A">A</option>
+                <option value="B+">B+</option>
+                <option value="B">B</option>
+                <option value="C+">C+</option>
+                <option value="C">C</option>
+                <option value="D+">D+</option>
+                <option value="D">D</option>
+                <option value="E+">E+</option>
+                <option value="E">E</option>
+                <option value="F">F</option>
+              </select>
+
+              <label for="EP">Engineering Chemistry / Physics</label>
+              <select id="EP" class="options">
+                <option value="A++">A++</option>
+                <option value="A+">A+</option>
+                <option value="A">A</option>
+                <option value="B+">B+</option>
+                <option value="B">B</option>
+                <option value="C+">C+</option>
+                <option value="C">C</option>
+                <option value="D+">D+</option>
+                <option value="D">D</option>
+                <option value="E+">E+</option>
+                <option value="E">E</option>
+                <option value="F">F</option>
+              </select>
+
+              <label for="PPS">Programming / Basic Mechanical</label>
+              <select id="PPS" class="options">
+                <option value="A++">A++</option>
+                <option value="A+">A+</option>
+                <option value="A">A</option>
+                <option value="B+">B+</option>
+                <option value="B">B</option>
+                <option value="C+">C+</option>
+                <option value="C">C</option>
+                <option value="D+">D+</option>
+                <option value="D">D</option>
+                <option value="E+">E+</option>
+                <option value="E">E</option>
+                <option value="F">F</option>
+              </select>
+
+              <label for="COM">Communication / Human Values</label>
+              <select id="COM" class="options">
+                <option value="A++">A++</option>
+                <option value="A+">A+</option>
+                <option value="A">A</option>
+                <option value="B+">B+</option>
+                <option value="B">B</option>
+                <option value="C+">C+</option>
+                <option value="C">C</option>
+                <option value="D+">D+</option>
+                <option value="D">D</option>
+                <option value="E+">E+</option>
+                <option value="E">E</option>
+                <option value="F">F</option>
+              </select>
+
+              <label for="LAN">Language / Lab</label>
+              <select id="LAN" class="options">
+                <option value="A++">A++</option>
+                <option value="A+">A+</option>
+                <option value="A">A</option>
+                <option value="B+">B+</option>
+                <option value="B">B</option>
+                <option value="C+">C+</option>
+                <option value="C">C</option>
+                <option value="D+">D+</option>
+                <option value="D">D</option>
+                <option value="E+">E+</option>
+                <option value="E">E</option>
+                <option value="F">F</option>
+              </select>
+
+              <label for="CP">Workshop / Programming Lab</label>
+              <select id="CP" class="options">
+                <option value="A++">A++</option>
+                <option value="A+">A+</option>
+                <option value="A">A</option>
+                <option value="B+">B+</option>
+                <option value="B">B</option>
+                <option value="C+">C+</option>
+                <option value="C">C</option>
+                <option value="D+">D+</option>
+                <option value="D">D</option>
+                <option value="E+">E+</option>
+                <option value="E">E</option>
+                <option value="F">F</option>
+              </select>
+
+              <label for="CAG">CAD / Graphics</label>
+              <select id="CAG" class="options">
+                <option value="A++">A++</option>
+                <option value="A+">A+</option>
+                <option value="A">A</option>
+                <option value="B+">B+</option>
+                <option value="B">B</option>
+                <option value="C+">C+</option>
+                <option value="C">C</option>
+                <option value="D+">D+</option>
+                <option value="D">D</option>
+                <option value="E+">E+</option>
+                <option value="E">E</option>
+                <option value="F">F</option>
+              </select>
+
+              <label for="BEL">Labs (Civil / Electrical)</label>
+              <select id="BEL" class="options">
+                <option value="A++">A++</option>
+                <option value="A+">A+</option>
+                <option value="A">A</option>
+                <option value="B+">B+</option>
+                <option value="B">B</option>
+                <option value="C+">C+</option>
+                <option value="C">C</option>
+                <option value="D+">D+</option>
+                <option value="D">D</option>
+                <option value="E+">E+</option>
+                <option value="E">E</option>
+                <option value="F">F</option>
+              </select>
+
+              <label for="PHL">Chemistry / Physics Lab</label>
+              <select id="PHL" class="options">
+                <option value="A++">A++</option>
+                <option value="A+">A+</option>
+                <option value="A">A</option>
+                <option value="B+">B+</option>
+                <option value="B">B</option>
+                <option value="C+">C+</option>
+                <option value="C">C</option>
+                <option value="D+">D+</option>
+                <option value="D">D</option>
+                <option value="E+">E+</option>
+                <option value="E">E</option>
+                <option value="F">F</option>
+              </select>
+
+              <label for="DECA">DECA</label>
+              <select id="DECA" class="options">
+                <option value="A++">A++</option>
+                <option value="A+">A+</option>
+                <option value="A">A</option>
+                <option value="B+">B+</option>
+                <option value="B">B</option>
+                <option value="C+">C+</option>
+                <option value="C">C</option>
+                <option value="D+">D+</option>
+                <option value="D">D</option>
+                <option value="E+">E+</option>
+                <option value="E">E</option>
+                <option value="F">F</option>
+              </select>
+            </div>
+
+            <div class="form-actions" style="margin-top:14px;">
+              <button id="btn" class="btn primary" type="button">Calculate CGPA</button>
+              <button id="resetBtn" class="btn ghost" type="reset">Reset</button>
+            </div>
+          </form>
+
+          <div id="result" style="margin-top:14px"></div>
+        </article>
+
+        <aside class="sidebar">
+          <h3>Semester Summary</h3>
+          <div class="summary-card">
+            <div>Estimated credits: <strong>20</strong></div>
+            <div class="small" style="margin-top:8px">Use the calculator to generate your CGPA; results will appear in the dialog.</div>
+          </div>
+          <div class="summary-card">
+            <strong id="estCGPA">—</strong>
+            <div class="small">Current selection preview</div>
+          </div>
+        </aside>
+      </div>
+      <div id="blur" class="blur" aria-hidden="true">
+    <div id="cgpaDisplay" role="dialog" aria-modal="true">
+      <button id="closeBtn" class="btn ghost" style="float:right"><i class="icon-close"></i></button>
+      <h3 style="margin:0;color:var(--muted)">Your Semester CGPA</h3>
+      <div class="value" id="cgpaValue" style="font-size:2.6rem;font-weight:800;margin-top:12px">-</div>
+      <div style="margin-top:12px;display:flex;gap:8px;justify-content:center">
+        <button id="copyBtn" class="btn primary">Copy</button>
+        <button id="closeBtn2" class="btn ghost">Close</button>
+      </div>
+    </div>
+  </div>
+    </main>
+  
+
+  <script src="cgpa.js"></script>
+  
+</body>
+</html>

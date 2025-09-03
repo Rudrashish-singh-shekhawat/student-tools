@@ -1,0 +1,104 @@
+.header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:16px;
+    margin-bottom:28px;
+}
+.header .title{
+    display:flex;
+    align-items:center;
+    gap:14px;
+}
+.logo{
+    width:56px;
+    height:56px;
+    border-radius:12px;
+    background: linear-gradient(135deg,var(--accent-1),var(--accent-2));
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:700;
+    color:#fff;
+    font-size:18px;
+    box-shadow:0 6px 18px rgba(11,13,27,0.6);
+}
+.header h1{
+    font-size:1.4rem;
+    margin:0;
+    color:var(--muted)}
+.header p{
+    margin:0;
+    font-size:0.9rem;
+    color:rgba(255,255,255,0.6)
+}
+
+.navbar {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.navbar a{
+    color:rgba(255,255,255,0.85);
+    text-decoration:none;
+    padding:8px 12px;
+    border-radius:8px;
+    font-weight:600;
+}
+.navbar a:hover{
+    background:rgba(255,255,255,0.04);
+    transform:translateY(-2px)
+}
+
+.nav-btn{
+    padding: 8px 14px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(255,255,255,0.06), rgba(255,255,255,0.03));
+    color: #fff;
+    text-decoration: none;
+    font-weight:700;
+    display:inline-flex;align-items:center;gap:8px;
+}
+
+.btn:hover, .link-btn:hover, .nav-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 16px 36px rgba(2,6,23,0.45);
+    opacity: 0.98;
+}
+
+.btn:active, .link-btn:active, .nav-btn:active {
+    transform: translateY(-1px) scale(.995);
+}
+
+.btn:focus, .link-btn:focus, .nav-btn:focus {
+    outline: 3px solid rgba(124,92,255,0.18);
+    outline-offset: 4px;
+}
+
+
+
+/* Utility small icon spacing for buttons */
+.btn .icon, .nav-btn .icon{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    width:20px;height:20px}
+
+a.nav-btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+    padding:8px 14px;
+    border-radius:10px;
+    background:linear-gradient(90deg, rgba(255,255,255,0.06), rgba(255,255,255,0.03));
+    color:#fff;
+    text-decoration:none;
+    font-weight:700;
+    transition:transform .18s ease, box-shadow .18s ease;
+}

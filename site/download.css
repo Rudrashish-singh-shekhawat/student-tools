@@ -1,0 +1,25 @@
+.SEM {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.box {
+  flex: 1 1 30%;
+  margin: 10px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.box a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.box a:hover {
+  color: #007bff;
+}

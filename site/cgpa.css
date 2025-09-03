@@ -1,0 +1,162 @@
+.page{
+    max-width:1100px;
+    margin:0 auto;
+}
+
+
+.main{
+    display:grid;
+    grid-template-columns: 1fr 380px;
+    gap:24px;
+    align-items:start;
+}
+
+
+.cgpaform {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+.cgpaform label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #374151; /* darker label for readability */
+}
+
+/* Modern select styling */
+.cgpaform select.options {
+    width: 100%;
+    padding: 12px 44px 12px 14px; /* space for custom arrow */
+    margin-bottom: 1rem;
+    border: 1px solid #e6edf7;
+    border-radius: 10px;
+    font-size: 1rem;
+    background: linear-gradient(180deg, #ffffff, #f7f9ff);
+    color: #0b1430;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'><polyline points='4,7 10,13 16,7' fill='none' stroke='%23343a40' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 14px) center;
+    box-shadow: inset 0 -6px 18px rgba(12,18,45,0.03);
+    transition: box-shadow 200ms ease, transform 160ms ease, border-color 200ms ease;
+    cursor: pointer;
+}
+
+.cgpaform select.options:hover{
+    transform: translateY(-1px);
+}
+
+.cgpaform select.options:focus {
+    outline: none;
+    border-color: var(--accent-1, #7c5cff);
+    box-shadow: 0 8px 30px rgba(124,92,255,0.12);
+}
+
+/* small helper text under selects if needed */
+.cgpaform .hint {font-size:0.85rem;color:#6b7280;margin-top:-6px;margin-bottom:10px}
+
+/* Result Section */
+.new{
+    margin-top: 2rem;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-size: 1.2rem;
+    color: #333;
+}
+.old{
+    display: none;
+}
+
+
+#btn{
+    margin-top:8px;
+    padding:12px 16px;
+    border-radius:10px;
+    border:none;
+    cursor:pointer;
+    background:linear-gradient(90deg,var(--accent-1),var(--accent-2));
+    color:#fff;
+    font-weight:700;
+    font-size:1rem;
+    box-shadow:0 10px 30px rgba(124,92,255,0.18);
+    transition:transform .18s ease, box-shadow .18s ease;
+}
+#btn:hover{
+    transform:translateY(-3px);
+    box-shadow:0 18px 40px rgba(54,209,220,0.12)
+}
+
+/* Right column (summary / controls) */
+.sidebar{
+    padding:18px;
+    border-radius:14px;
+    background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+    box-shadow: 0 8px 30px rgba(2,6,23,0.6);
+}
+.sidebar h3{margin-top:0;color:var(--muted)}
+.summary-card{background:var(--glass);padding:14px;border-radius:10px;margin-bottom:12px;color:var(--muted)}
+.summary-card strong{color:#fff;font-size:1.2rem}
+
+.blur{position:fixed;inset:0;display:none;align-items:center;justify-content:center;background:rgba(2,6,23,0.55);backdrop-filter:blur(6px);z-index:1200}
+#cgpaDisplay{background:#0b1220;padding:28px;border-radius:12px;color:#fff;min-width:260px;text-align:center;box-shadow:0 18px 50px rgba(2,6,23,0.7)}
+#cgpaDisplay .value{font-size:2.8rem;font-weight:800;margin-top:6px;color:linear-gradient(90deg,#fff,#ddd)}
+
+/* Small helpers */
+.small{font-size:0.9rem;color:rgba(255,255,255,0.7)}
+
+/* ===== Buttons & Link-like Buttons ===== */
+.btn, button, .link-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 0.98rem;
+    text-decoration: none;
+    color: #fff;
+    transition: transform .18s ease, box-shadow .18s ease, opacity .12s ease;
+}
+
+/* Primary filled button */
+.btn.primary, button.primary {
+    background: linear-gradient(90deg,var(--accent-1),var(--accent-2));
+    box-shadow: 0 12px 30px rgba(124,92,255,0.18);
+}
+
+/* Secondary / ghost */
+.btn.ghost, .link-btn.ghost {
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.08);
+    color: var(--muted);
+}
+
+/* Subtle link-style button */
+.link-btn {
+    background: rgba(255,255,255,0.04);
+    padding: 8px 12px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+
+.btn[disabled], button[disabled], .link-btn.disabled{
+    opacity: 0.45;
+    pointer-events:none;
+    transform:none;
+    box-shadow:none;
+}

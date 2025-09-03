@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Downloads - CGPA site</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="download.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="nav.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    .downloads-main{max-width:1100px;margin:40px auto;padding:0 20px}
+    .hero{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:20px}
+    .hero h1{margin:0;color:#fff}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+    .sem-card{padding:18px;border-radius:12px;background:linear-gradient(135deg,rgba(124,92,255,0.14),rgba(54,209,220,0.08));color:#fff;display:flex;flex-direction:column;gap:12px;align-items:flex-start}
+    .sem-card h3{margin:0}
+    .sem-card p{margin:0;color:rgba(255,255,255,0.8)}
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <div class="title">
+        <div class="logo"><i class="fa-solid fa-paperclip"></i></div>
+        <div>
+          <h1>Downloads</h1>
+          <p class="small">Previous year question papers and resources.</p>
+        </div>
+      </div>
+      <nav class="navbar">
+        <a class="nav-btn" href="index.html">Home</a>
+        <a class="nav-btn" href="cgpa.html">Calculator</a>
+        <a class="nav-btn" href="download.html">Downloads</a>
+      </nav>
+    </header>
+
+    <main class="downloads-main">
+      <section class="hero">
+        <div>
+          <h1>Download Previous Year Question Papers</h1>
+          <p class="small">Choose a semester to view and download available papers.</p>
+        </div>
+        <div>
+          <a class="nav-btn" href="#">Request Paper</a>
+        </div>
+      </section>
+
+      <section class="grid">
+        <article class="sem-card">
+          <h3>1st SEM</h3>
+          <p>Basic civil, engineering mathematics and labs — past papers</p>
+          <a class="btn ghost" href="1stsem.html">Open</a>
+        </article>
+
+        <article class="sem-card">
+          <h3>2nd SEM</h3>
+          <p>Thermodynamics, chemistry and more</p>
+          <a class="btn ghost" href="commingsoon.html">Open</a>
+        </article>
+
+        <article class="sem-card">
+          <h3>3rd SEM</h3>
+          <p>Core subject papers and practice sets</p>
+          <a class="btn ghost" href="commingsoon.html">Open</a>
+        </article>
+
+        <article class="sem-card">
+          <h3>4th SEM</h3>
+          <p>Advanced topics and model papers</p>
+          <a class="btn ghost" href="commingsoon.html">Open</a>
+        </article>
+
+      </section>
+    </main>
+  </div>
+</body>
+</html>
