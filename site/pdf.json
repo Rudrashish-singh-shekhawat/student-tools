@@ -1,28 +1,84 @@
 {
     "pdf": [
         {
-            "title": "basic civil engineering",
+            "title": "1-sem Basic Civil Engineering",
             "year": "2024",
             "subjects": "Civil Engineering",
-            "size": "350kb",
+            "size": "130kb",
             "description": "An introduction to basic civil engineering concepts.",
             "link": "download/pdf/btech-1-sem-basic-civil-engineering-2025.pdf"
         },
         {
-            "title": "basic mechanical engineering",
+            "title": "1-sem Basic Mechanical Engineering",
             "year": "2025",
             "subjects": "Mechanical Engineering",
             "description": "An introduction to basic mechanical engineering concepts.",
-            "size": "350kb",
+            "size": "114kb",
             "link": "download/pdf/btech-1-sem-basic-mechanical-engineering-1e3107-2025.pdf"
         },
         {
-            "title": "programming for problem solving",
+            "title": "1-sem Programming for Problem Solving",
             "year": "2025",
-            "subjects": "programming for problem solving",
-            "size": "350kb",
-            "description": "An introduction to programming for problem solving.",
-            "link": "download/pdf/1756847943022-btech-1-sem-programming-for-problem-solving-1e3106-2025.pdf"
+            "subjects": "Programming for Problem Solving",
+            "size": "130kb",
+            "description": "An introduction to basic programming for problem solving concepts.",
+            "link": "download/pdf/btech-1-sem-programming-for-problem-solving-1e3106-2025.pdf"
+        },
+        {
+            "title": "1-sem Engineering Chemistry",
+            "year": "2025",
+            "subjects": "Engineering Chemistry",
+            "size": "134kb",
+            "description": "An introduction to basic engineering chemistry concepts.",
+            "link": "download/pdf/btech-1-sem-engineering-chemistry-1e3103-2025.pdf"
+        },
+        {
+            "title": "1-sem Engineering Mathematics",
+            "year": "2025",
+            "subjects": "Engineering Mathematics",
+            "size": "122kb",
+            "description": "An introduction to basic engineering mathematics concepts.",
+            "link": "download/pdf/btech-1-sem-engineering-mathematics-1-1e3101-2025.pdf"
+        },
+        {
+            "title": "1-sem Engineering Physics",
+            "year": "2025",
+            "subjects": "Engineering Physics",
+            "size": "150kb",
+            "description": "An introduction to basic engineering physics concepts.",
+            "link": "download/pdf/btech-1-sem-engineering-physics-1e3102-2025.pdf"
+        },
+        {
+            "title": "1-sem Programming for Problem Solving",
+            "year": "2025",
+            "subjects": "Programming for Problem Solving",
+            "size": "130kb",
+            "description": "An introduction to basic programming for problem solving concepts.",
+            "link": "download/pdf/btech-1-sem-programming-for-problem-solving-1e3106-2025.pdf"
+        },
+        {
+            "title": "2-sem Basic Mechanical Engineering",
+            "year": "2025",
+            "subjects": "Mechanical Engineering",
+            "size": "97kb",
+            "description": "An introduction to basic mechanical engineering concepts.",
+            "link": "download/pdf/btech-2-sem-basic-mechanical-engineering-2e3206-jun-2025.pdf"
+        },
+        {
+            "title": "2-sem Basic Engineering Mathematics",
+            "year": "2025",
+            "subjects": "Engineering Mathematics",
+            "size": "130kb",
+            "description": "An introduction to basic engineering mathematics concepts.",
+            "link": "download/pdf/btech-2-sem-engineering-mathematics-2-2e3201-jun-2025.pdf"
+        },
+        {
+            "title": "2-sem Engineering physics",
+            "year": "2025",
+            "subjects": "Engineering Physics",
+            "size": "150kb",
+            "description": "An introduction to basic engineering physics concepts.",
+            "link": "download/pdf/btech-2-sem-engineering-physics-2e3203-jun-2025.pdf"
         }
     ]
 }
