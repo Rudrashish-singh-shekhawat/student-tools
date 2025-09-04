@@ -28,13 +28,47 @@
     padding:18px;border-radius:14px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
     box-shadow: 0 8px 30px rgba(2,6,23,0.6);
 }
-.sidebar h3{margin-top:0;color:var(--muted)}
-.summary-card{background:var(--glass);padding:14px;border-radius:10px;margin-bottom:12px;color:var(--muted)}
-.summary-card strong{color:#fff;font-size:1.2rem}
+.sidebar h3{
+    margin-top:0;
+    color:var(--muted);
+}
+.summary-card{
+    background:var(--glass);
+    padding:14px;
+    border-radius:10px;
+    margin-bottom:12px;
+    color:var(--muted);
+}
+.summary-card strong{
+    color:#fff;
+    font-size:1.2rem;
+}
 
-.blur{position:fixed;inset:0;display:none;align-items:center;justify-content:center;background:rgba(2,6,23,0.55);backdrop-filter:blur(6px);z-index:1200}
-#cgpaDisplay{background:#0b1220;padding:28px;border-radius:12px;color:#fff;min-width:260px;text-align:center;box-shadow:0 18px 50px rgba(2,6,23,0.7)}
-#cgpaDisplay .value{font-size:2.8rem;font-weight:800;margin-top:6px;color:linear-gradient(90deg,#fff,#ddd)}
+.blur{
+    position:fixed;
+    inset:0;
+    display:none;
+    align-items:center;
+    justify-content:center;
+    background:rgba(2,6,23,0.55);
+    backdrop-filter:blur(6px);
+    z-index:1200;
+}
+#cgpaDisplay{
+    background:#0b1220;
+    padding:28px;
+    border-radius:12px;
+    color:#fff;
+    min-width:260px;
+    text-align:center;
+    box-shadow:0 18px 50px rgba(2,6,23,0.7);
+}
+#cgpaDisplay .value{
+    font-size:2.8rem;
+    font-weight:800;
+    margin-top:6px;
+    color:linear-gradient(90deg,#fff,#ddd);
+}
 
 /* Small helpers */
 .small{font-size:0.9rem;color:rgba(255,255,255,0.7)}
@@ -56,20 +90,20 @@
     transition: transform .18s ease, box-shadow .18s ease, opacity .12s ease;
 }
 
-/* Primary filled button */
-.btn.primary, button.primary {
+
+.btn:hover {
     background: linear-gradient(90deg,var(--accent-1),var(--accent-2));
     box-shadow: 0 12px 30px rgba(124,92,255,0.18);
-}
+} 
 
-/* Secondary / ghost */
-.btn.ghost, .link-btn.ghost {
+
+/* .btn.ghost, .link-btn.ghost {
     background: transparent;
     border: 1px solid rgba(255,255,255,0.08);
     color: var(--muted);
-}
+}  */
 
-/* Subtle link-style button */
+
 .link-btn {
     background: rgba(255,255,255,0.04);
     padding: 8px 12px;

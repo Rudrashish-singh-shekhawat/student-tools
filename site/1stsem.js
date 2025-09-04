@@ -26,3 +26,13 @@
     subjectChecks.forEach(cb => cb.addEventListener('change', applyFilters));
 
     applyFilters();
+
+
+  function open(c){
+    const subject = c.querySelector('a');
+    let a = `${subject.href}`;
+    return window.location.href = a;
+  }
+  let m = document.getElementById('card1');
+   let subject = m.querySelector('a');
+   console.log(subject.href);

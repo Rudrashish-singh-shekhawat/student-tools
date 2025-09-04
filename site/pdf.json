@@ -1,0 +1,28 @@
+{
+    "pdf": [
+        {
+            "title": "basic civil engineering",
+            "year": "2024",
+            "subjects": "Civil Engineering",
+            "size": "350kb",
+            "description": "An introduction to basic civil engineering concepts.",
+            "link": "download/pdf/btech-1-sem-basic-civil-engineering-2025.pdf"
+        },
+        {
+            "title": "basic mechanical engineering",
+            "year": "2025",
+            "subjects": "Mechanical Engineering",
+            "description": "An introduction to basic mechanical engineering concepts.",
+            "size": "350kb",
+            "link": "download/pdf/btech-1-sem-basic-mechanical-engineering-1e3107-2025.pdf"
+        },
+        {
+            "title": "programming for problem solving",
+            "year": "2025",
+            "subjects": "programming for problem solving",
+            "size": "350kb",
+            "description": "An introduction to programming for problem solving.",
+            "link": "download/pdf/1756847943022-btech-1-sem-programming-for-problem-solving-1e3106-2025.pdf"
+        }
+    ]
+}

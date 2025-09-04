@@ -156,7 +156,7 @@
 }
 
 /* ===== Buttons & Link-like Buttons ===== */
-.btn, button, .link-btn {
+ .btn, button, .link-btn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -178,36 +178,6 @@
     box-shadow: 0 12px 30px rgba(124,92,255,0.18);
 }
 
-/* Secondary / ghost */
-.btn.ghost, .link-btn.ghost {
-    background: transparent;
-    border: 1px solid rgba(255,255,255,0.08);
-    color: var(--muted);
-}
-
-/* Subtle link-style button */
-.link-btn {
-    background: rgba(255,255,255,0.04);
-    padding: 8px 12px;
-    border-radius: 8px;
-    color: #fff;
-}
-
-
-.btn[disabled], button[disabled], .link-btn.disabled{
-    opacity: 0.45;
-    pointer-events:none;
-    transform:none;
-    box-shadow:none;
-}
-
-/* Responsive form grid for the select inputs */
-.form-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-    gap:12px;
-    align-items:start;
-}
 
 .form-actions{display:flex;gap:10px;align-items:center;justify-content:flex-end}
 .form-actions .btn{margin-top:0}
